@@ -1,20 +1,58 @@
 
-
-collectOddElm =  # make your code
-##################################################
-##################################################
-
-mylambda1 =  # make your code
-mylambda2 =  # make your code
+from functools import reduce
+import xlrd
 
 
-##################################################
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(numbers)
-# Figure out how it works
-print(mylambda1(numbers, collectOddElm))
+def makeList():
+    ##################################################
+    # Make your code
+    ##################################################
+    return students
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(numbers)
-# Figure out how it works
-print(mylambda2(numbers, collectOddElm))
+
+def printList(students):
+    ##################################################
+    # Make your code
+    ##################################################
+
+
+def scoresbySubject(students):
+    ##################################################
+    # Make your code
+    ##################################################
+    return result
+
+
+def gt330(students):
+    ##################################################
+    # Make your code
+    ##################################################
+
+
+def findstudents(students):
+    ##################################################
+    # Make your code
+    ##################################################
+    return result
+
+
+def getAvgList(students):
+    ##################################################
+    # Make your code
+    ##################################################
+    return avglist
+
+
+def main():
+    students = makeList()
+    printList(students)
+    scorelist = scoresbySubject(students)
+    print(scorelist)
+    gtlist = findstudents(students)
+    printList(gtlist)
+    avglist = getAvgList(students)
+    print(avglist)
+
+
+if __name__ == '__main__':
+    main()
