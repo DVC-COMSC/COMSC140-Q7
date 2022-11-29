@@ -44,7 +44,7 @@ def test_scorebySubject():
 def test_findStudents():
     students = main.makeList()
 
-    gtlist = main.findstudents(students)
+    gtlist = main.findStudents(students)
     lenofdict = len(gtlist)
     print('The number of students in your result ', lenofdict)
     main.printList(gtlist)
@@ -61,6 +61,6 @@ def test_getAvgList():
     print(avglist)
 
     assert len(avglist) == 5, "Expecting 5"
-    assert avglist[0] == 70.0, "Expecting 70.0"
-    assert avglist[1] == 73.75, "Expecting 73.75"
+    assert avglist[0] == 77.5, "Expecting 70.0"
+    assert avglist[1] == 82.5, "Expecting 73.75"
     assert avglist[4] == 87.5, "Expecting 87.5"
